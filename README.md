@@ -8,6 +8,7 @@ Usage: GetMikrotikLatest.sh [-s | -d | -l | -t]
   -t: Returns the latest Testing release
 
 Example:
+wget "https://github.com/tjcomserv/MikrotikVersionRetriever/raw/refs/heads/main/GetMikrotikLatest.sh" -q && bash ./GetMikrotikLatest.sh -s
 
-./GetMikrotikLatest.sh -s
+Output:
 7.19.1
