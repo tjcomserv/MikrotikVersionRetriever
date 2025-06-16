@@ -39,10 +39,10 @@ case "$1" in
     -t) extract_version "Testing release tree" ;;
     *)
         echo "Usage: $0 [-s | -d | -l | -t]"
-        echo "  -s: Return the latest Stable release"
-        echo "  -d: Return the latest Development release"
-        echo "  -l: Return the latest Long-term release"
-        echo "  -t: Return the latest Testing release"
+        echo "  -s: Returns the latest Stable release"
+        echo "  -d: Returns the latest Development release"
+        echo "  -l: Returns the latest Long-term release"
+        echo "  -t: Returns the latest Testing release"
         ;;
 esac
 
