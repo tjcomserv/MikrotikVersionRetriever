@@ -13,4 +13,5 @@ wget "https://github.com/tjcomserv/MikrotikVersionRetriever/raw/refs/heads/main/
 ```
 
 Output:
+
 7.19.1
