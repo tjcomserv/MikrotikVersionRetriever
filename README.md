@@ -14,3 +14,9 @@ wget "https://github.com/tjcomserv/MikrotikVersionRetriever/raw/refs/heads/main/
 
 Output:\
 7.19.1
+
+To download the latest stable main package for x86 as a oneliner you could use:
+
+```
+ver=$(wget -q https://github.com/tjcomserv/MikrotikVersionRetriever/raw/refs/heads/main/GetMikrotikLatest.sh && bash GetMikrotikLatest.sh -s) && wget https://download.mikrotik.com/routeros/$ver/routeros-$ver.npk
+```
